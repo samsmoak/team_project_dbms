@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Home() {
   const teamMembers = [
     { name: "Samuel Enam Zih", image: "/images/sam.png" },
-    { name: "Member 2", image: "https://via.placeholder.com/150?text=Member+2" },
-    { name: "Member 3", image: "https://via.placeholder.com/150?text=Member+3" },
+    { name: "Christopher Drake Williams", image: "/images/Chris.png" },
+    { name: "Arjun Sivakumar", image: "/images/Arjun.png" },
     { name: "Member 4", image: "https://via.placeholder.com/150?text=Member+4" },
     { name: "Member 5", image: "https://via.placeholder.com/150?text=Member+5" },
   ];
@@ -28,23 +28,29 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white border border-gray-100 rounded-xl shadow-card p-10">
-        <h2 className="text-3xl font-semibold text-center mb-10">Our Team</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-          {teamMembers.map((member, i) => (
-            <div key={i} className="flex flex-col items-center text-center">
-              <Image
-                src={member.image}
-                alt={member.name}
-                width={110}
-                height={110}
-                className="rounded-full border-4 border-white shadow-md mb-4"
-              />
-              <p className="font-medium text-gray-900">{member.name}</p>
-            </div>
-          ))}
+     <div className="bg-white border border-gray-100 rounded-xl shadow-card p-10">
+  <h2 className="text-3xl font-semibold text-center mb-10">Our Team</h2>
+  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    {teamMembers.map((member, i) => (
+      <div
+        key={i}
+        className="flex flex-col items-center gap-3 p-4 rounded-2xl bg-gray-50 hover:bg-indigo-50 transition-colors duration-200 group"
+      >
+        <div className="relative w-24 h-24 rounded-full overflow-hidden shadow-lg ring-4 ring-white shrink-0 transition-transform duration-200 group-hover:scale-105">
+          <Image
+            src={member.image}
+            alt={member.name}
+            fill
+            className="object-cover"
+          />
         </div>
+        <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-gray-500 group-hover:text-indigo-500 transition-colors duration-200 text-center leading-snug">
+          {member.name}
+        </p>
       </div>
+    ))}
+  </div>
+</div>
     </div>
   );
 }
