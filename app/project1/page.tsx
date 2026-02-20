@@ -9,7 +9,7 @@ export default function Project1() {
     { name: "Samuel Enam Zih", image: "/images/sam.png" },
     { name: "Christopher Drake Williams", image: "/images/Chris.png" },
     { name: "Arjun Sivakumar", image: "/images/Arjun.png" },
-    { name: "Member 4", image: "https://via.placeholder.com/150?text=Member+4" },
+    { name: "Ki Hong Park", image: "/images/park.png" },
     { name: "Member 5", image: "https://via.placeholder.com/150?text=Member+5" },
   ];
 
