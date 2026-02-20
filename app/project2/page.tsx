@@ -10,7 +10,7 @@ export default function Project2() {
     { name: "Christopher Drake Williams", image: "/images/Chris.png" },
     { name: "Arjun Sivakumar", image: "/images/Arjun.png" },
     { name: "Ki Hong Park", image: "/images/park.png" },
-    { name: "Member 5", image: "https://via.placeholder.com/150?text=Member+5" },
+    { name: "Shiyi Liu", image: "/images/liu.png" },
   ];
 
   return (
