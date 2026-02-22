@@ -24,10 +24,10 @@ export default function Project1() {
         {/* Main Content */}
         <div className="lg:col-span-6">
           <div className="bg-white border border-gray-100 rounded-xl shadow-card p-10">
-            <h1 className="text-4xl font-bold leading-tight text-gray-900 mb-2">
-              Project 1: Domicile vs. Protocol – Empirically Disentangling Regulatory Risk Premiums in the Post-GENIUS Act Era
-            </h1>
-            <p className="text-muted mb-10">Posted: February 4, 2026 • 52 pages</p>
+                      <h1 className="text-4xl font-bold leading-tight text-gray-900 mb-2">
+            CrisisEcho: LLM-Powered Hyperlocal Emergency Detection from Social Media
+          </h1>
+          <p className="text-muted mb-10">Posted: February 21, 2026 • CS5614 Database Management Systems</p>
 
             {project1Sections.map((section) => (
               <section
@@ -47,7 +47,7 @@ export default function Project1() {
             <div className="border-t pt-10">
               <h2 className="text-2xl font-semibold mb-4">Download Project Proposal</h2>
               <Link
-                href="/proposals/Proposal_(Leader-LName)_(Member1-LName)_(Member2-LName)_(Member3-LName)_(Member4-LName).pdf"
+                href="/proposals/DBMS_PROJECT_PROPOSAL_B.pdf"
                 download
                 className="inline-flex items-center bg-primary hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-medium transition-colors"
               >

@@ -16,7 +16,7 @@ export default function Home() {
       <div className="bg-card rounded-xl shadow-card p-12 text-center mb-16">
         <h1 className="text-5xl font-bold text-gray-900 mb-4">Team Projects Showcase</h1>
         <p className="text-xl text-muted max-w-2xl mx-auto">
-          Academic collaboration in the post-GENIUS Act era. Professional research presented with clarity.
+          Current Project: A real-time crisis awareness platform that ingests multi-source social media streams and applies a RAG-powered LLM agent chain to detect, cluster, and summarize local emergencies before official channels respond. Built on MongoDB Atlas with native geospatial indexing, Pinecone vector search, and a Go API backend, CrisisEcho delivers severity-scored alerts to a React map interface via WebSocket — putting hyperlocal crisis awareness directly in the hands of everyday people.
         </p>
         <div className="flex flex-wrap gap-4 justify-center mt-10">
           <Link href="/project1" className="bg-primary hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-medium transition-colors">
