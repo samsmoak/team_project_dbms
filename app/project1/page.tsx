@@ -28,6 +28,24 @@ export default function Project1() {
             CrisisEcho: LLM-Powered Hyperlocal Emergency Detection from Social Media
           </h1>
           <p className="text-muted mb-10">Posted: February 21, 2026 • CS5614 Database Management Systems</p>
+        <div className="flex flex-col items-end ">
+        <h2 className="text-sm font-semibold ">Download </h2>
+        <Link
+          href="/proposals/DBMS_PROJECT_PROPOSAL_B.pdf"
+          download
+          className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="w-6 h-6 text-red-600"
+          >
+            <path d="M7 3C5.9 3 5 3.9 5 5v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V8l-5-5H7zm5 13.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm0-1.5c1.4 0 2.5-1.1 2.5-2.5S13.4 10 12 10s-2.5 1.1-2.5 2.5S10.6 15 12 15zm1-8V4.5L16.5 9H13z"/>
+          </svg>
+          CrisisEcho_Proposal.pdf
+        </Link>
+      </div>
 
             {project1Sections.map((section) => (
               <section
@@ -44,16 +62,7 @@ export default function Project1() {
               </section>
             ))}
 
-            <div className="border-t pt-10">
-              <h2 className="text-2xl font-semibold mb-4">Download Project Proposal</h2>
-              <Link
-                href="/proposals/DBMS_PROJECT_PROPOSAL_B.pdf"
-                download
-                className="inline-flex items-center bg-primary hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-medium transition-colors"
-              >
-                Download PDF
-              </Link>
-            </div>
+                
           </div>
         </div>
 
