@@ -31,7 +31,7 @@ export default function Project1() {
         <div className="flex flex-col items-end ">
         <h2 className="text-sm font-semibold ">Download </h2>
         <Link
-          href="/proposals/DBMS_PROJECT_PROPOSAL_B.pdf"
+          href="/proposals/DBMS_PROJECT_PROPOSAL_Z.pdf"
           download
           className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
         >
