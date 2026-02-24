@@ -26,7 +26,7 @@ export default function Home() {
             View Project 2
           </Link> */}
            <Link
-          href="/proposals/DBMS_PROJECT_PROPOSAL_Y.pdf"
+          href="/proposals/DBMS_PROJECT_PROPOSAL_C.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
