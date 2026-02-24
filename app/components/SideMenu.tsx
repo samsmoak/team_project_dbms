@@ -74,9 +74,9 @@ export default function SideMenu({ isOpen, onClose }: SideMenuProps) {
                   : "text-gray-700 hover:bg-gray-100"
               }`}
             >
-              Project 1
+              Project
             </Link>
-            <Link
+            {/* <Link
               href="/project2"
               onClick={onClose}
               className={`block px-4 py-3.5 text-lg font-medium rounded-2xl transition-all ${
@@ -86,7 +86,7 @@ export default function SideMenu({ isOpen, onClose }: SideMenuProps) {
               }`}
             >
               Project 2
-            </Link>
+            </Link> */}
           </nav>
 
           <div className="p-6 border-t text-center text-sm text-gray-400">

@@ -36,16 +36,16 @@ export default function Navbar() {
                 isActive("/project1") ? "text-primary border-b-2 border-primary pb-0.5 font-semibold" : ""
               }`}
             >
-              Project 1
+              Project
             </Link>
-            <Link
+            {/* <Link
               href="/project2"
               className={`hover:text-primary transition-colors ${
                 isActive("/project2") ? "text-primary border-b-2 border-primary pb-0.5 font-semibold" : ""
               }`}
             >
               Project 2
-            </Link>
+            </Link> */}
           </div>
 
           {/* Hamburger - only on mobile & tablet */}

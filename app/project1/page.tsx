@@ -32,7 +32,8 @@ export default function Project1() {
         <h2 className="text-sm font-semibold ">Download </h2>
         <Link
           href="/proposals/DBMS_PROJECT_PROPOSAL_Y.pdf"
-          download
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
         >
           <svg
