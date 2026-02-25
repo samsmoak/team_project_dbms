@@ -24,7 +24,7 @@ export default function Home() {
         </p>
         <div className="flex flex-wrap gap-4 justify-center mt-5">
           <Link
-            href="/proposals/DBMS_PROJECT_PROPOSAL_C.pdf"
+            href="/proposals/DBMS_PROJECT_PROPOSAL_ZIH.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
