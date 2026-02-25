@@ -7,10 +7,10 @@ import { project1Sections } from "../data/project1Sections";
 export default function Project1() {
   const teamMembers = [
     { name: "Samuel Enam Zih", image: "/images/sam.png" },
-    { name: "Christopher Drake Williams", image: "/images/Chris.png" },
-    { name: "Arjun Sivakumar", image: "/images/Arjun.png" },
-    { name: "Ki Hong Park", image: "/images/park.png" },
-    { name: "Shiyi Liu", image: "/images/liu.png" },
+    // { name: "Christopher Drake Williams", image: "/images/Chris.png" },
+    // { name: "Arjun Sivakumar", image: "/images/Arjun.png" },
+    // { name: "Ki Hong Park", image: "/images/park.png" },
+    // { name: "Shiyi Liu", image: "/images/liu.png" },
   ];
 
   return (
@@ -70,7 +70,7 @@ export default function Project1() {
         {/* Team Sidebar */}
         <div className="lg:col-span-3">
                 <div className="bg-white border border-gray-100 rounded-xl shadow-card p-8 lg:sticky lg:top-24">
-          <h3 className="font-semibold text-lg mb-6 w-full text-center">Team Members</h3>
+          <h3 className="font-semibold text-lg mb-6 w-full text-center">Members</h3>
           <div className="flex flex-col gap-4">
             {teamMembers.map((member, i) => (
               <div

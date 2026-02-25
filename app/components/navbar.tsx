@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-primary">
-            Team Projects
+            Projects
           </Link>
 
           {/* Desktop Navigation - hidden on mobile/tablet */}
