@@ -24,6 +24,13 @@ const documents = [
     badge: "REPORT",
     badgeColor: "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300",
   },
+  {
+    href: "/proposals/final_project_report.pdf",
+    title: "Final Project Report",
+    subtitle: "Complete project outcomes & evaluation",
+    badge: "FINAL",
+    badgeColor: "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300",
+  },
 ];
 
 function PdfIcon({ className }: { className?: string }) {
@@ -142,7 +149,7 @@ export default function Home() {
           </h3>
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {documents.map((doc) => (
             <Link
               key={doc.href}
